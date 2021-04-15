@@ -1,5 +1,5 @@
 # AMLS_II_assignment20_21
-This repo provides the solutions for AMLS_II project on cassiva disease classfication, details of the kaggle competition are available at 
+This repo provides the solutions for AMLS_II project on cassava disease classfication, details of the kaggle competition are available at 
 https://www.kaggle.com/c/cassava-disease
 ## Library and enviroment
 Scikit-Learn, Pandas, Tensorflow 2.3.0, CUDA, keras, Python 3.7
@@ -9,6 +9,8 @@ Scikit-Learn, Pandas, Tensorflow 2.3.0, CUDA, keras, Python 3.7
   - A1 (Baseline model selection)
     - EfficientNet.ipynb (training code contains model construction and parameter tuning)
     - Resnet.ipynb (training code contains model construction and parameter tuning)
+    - EfficientNet_best.h5 (saved model)
+    - Resnet_best.h5 (saved model)
   - A2 (Drop rate parameter tuning)
     - dropout0.25.ipynb (training code contains model construction and parameter tuning)
     - drop_best0.1.h5 (saved model)
@@ -19,6 +21,7 @@ Scikit-Learn, Pandas, Tensorflow 2.3.0, CUDA, keras, Python 3.7
     - BN_best.h5 (saved model)
   - A4 (Final model with mix-up)
     - mixup_generator.py (code for mix up two images)
+    - mixup.py (library for main.py)
     - EfficientNetMixUp.ipynb (training code contains model construction and parameter tuning)
     - mixup.h5 (saved model)
   - Datasets
