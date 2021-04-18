@@ -7,6 +7,7 @@ Scikit-Learn, Pandas, Tensorflow 2.3.0, CUDA, keras, Python 3.7
 ## File structure
 - AMLS_II_20-21_SN20073066
   - A1 (Baseline model selection)
+    - Data analytics.ipynb (Basic data exploration)
     - EfficientNet.ipynb (training code contains model construction and parameter tuning)
     - Resnet.ipynb (training code contains model construction and parameter tuning)
     - EfficientNet_best.h5 (saved model)
